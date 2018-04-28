@@ -11,8 +11,6 @@ getcontext().prec = precision
 sumn = 0
 n = -1
 cycle = 1
-print("Decimal Precision Set To " + str(precision)+ ". Cycle Duration Set To " + str(cycledr) + ".")
-print("")
 print("Enable Dynamic Cycle Duration?") # Prints at regular time intervals vs. regular interation intervals
 yon = input()
 if yon == "y":
