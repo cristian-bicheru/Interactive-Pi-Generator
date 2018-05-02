@@ -11,7 +11,7 @@ getcontext().prec = precision
 sumn = 0
 n = -1
 cycle = 1
-print("Enable Dynamic Cycle Duration?") # Prints at regular time intervals vs. regular interation intervals
+print("Enable Dynamic Cycle Duration?") # Prints at regular time intervals vs. regular iteration intervals
 yon = input()
 if yon == "y":
     dcycle = 1 # Enables dynamic cycling
